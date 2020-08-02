@@ -12,7 +12,7 @@ typedef struct cidade Cidade;
 /* Função cria
  * ** Aloca e retorna uma cidade com coordenadas (x,y) e nome
  * */
-Cidade* cria (float x, float y, char * nome);
+bool cria (float x, float y, char * nome);
 /* Função libera
  * ** Libera a memória de uma cidade previamente criada.
  * */
